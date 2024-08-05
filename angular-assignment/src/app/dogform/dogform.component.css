@@ -1,0 +1,31 @@
+.profile-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .profile-form .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .profile-form label {
+    font-weight: bold;
+  }
+  
+  .profile-form .form-control {
+    border-radius: 5px;
+  }
+  
+  .profile-form .alert {
+    margin-top: 0.5rem;
+  }
+  
+  .profile-form .btn-primary {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+  }

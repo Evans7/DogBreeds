@@ -1,0 +1,21 @@
+
+
+    <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            @for (breed of dogBreeds;track breed.id)
+{
+            <div class="card">
+              <div class="card-body">
+                <h2 class="card-title">{{ breed.attributes.name }}</h2>
+                <p class="card-text">{{ breed.attributes.description }}</p>
+                <p class="card-text"><strong>Life Span:</strong> {{ breed.attributes.life.min }} - {{ breed.attributes.life.max }} years</p>
+                <p class="card-text"><strong>Male Weight:</strong> {{ breed.attributes.male_weight.min }} - {{ breed.attributes.male_weight.max }} kg</p>
+                <p class="card-text"><strong>Female Weight:</strong> {{ breed.attributes.female_weight.min }} - {{ breed.attributes.female_weight.max }} kg</p>
+                <p class="card-text"><strong>Hypoallergenic:</strong> {{ breed.attributes.hypoallergenic ? 'Yes' : 'No' }}</p>
+              </div>
+            </div>
+        }
+          </div>
+        </div>
+      </div>
